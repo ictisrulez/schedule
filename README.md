@@ -46,8 +46,7 @@
 |Срд,15  июля|экз.Математическая логика и теория алгоритмов Липко Ю. Ю. +|экз.Математическая логика и теория алгоритмов Липко Ю. Ю. +|экз.Математическая логика и теория алгоритмов Липко Ю. Ю. +|экз.Математическая логика и теория алгоритмов Липко Ю. Ю. +|лек.Электротехника, электроника и схемотехника Норкин О. Р. +|лек.Основы программирования на язке 1С Беликов А. Н. +||
 
 <style type="text/css">
-.container-lg {
-  max-width:none !important;
-}
-th,td {width: 12vw !important;}
+.container-lg {max-width:none !important;}
+th,td {width: 12.5vw !important; font-size: 0.5vw !important;}
+tr th:first-child,tr td:first-child {width: 6vw !important;}
 </style>
