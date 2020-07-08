@@ -47,6 +47,6 @@
 
 <style type="text/css">
 .container-lg {max-width:none !important;}
-th,td {width: 12.5vw !important; font-size: clamp(1em, calc(0.4rem + 1vw), 2em) !important;}
-tr th:first-child,tr td:first-child {width: 5vw !important;}
+th,td {width: clamp(12.5vw, 12.5vw, 12.5vw) !important; font-size: clamp(1em, calc(0.4rem + 0.6vw), 1.5em) !important;}
+tr th:first-child,tr td:first-child {width: clamp(5vw, 5vw, 5vw) !important;}
 </style>
