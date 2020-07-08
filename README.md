@@ -47,6 +47,6 @@
 
 <style type="text/css">
 .container-lg {max-width:none !important;}
-th,td {width: 12.5vw !important; font-size: 0.5vw !important;}
-tr th:first-child,tr td:first-child {width: 6vw !important;}
+th,td {width: 12.5vw !important; font-size: 0.8vw !important;}
+tr th:first-child,tr td:first-child {width: 5vw !important;}
 </style>
