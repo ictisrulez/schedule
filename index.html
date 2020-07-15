@@ -8,7 +8,7 @@
 <body>
 <h1>Расписание занятий группы КТбз2-3</h1>
 <h2>Неделя: 20-я</h2>
-<table>
+<table class="schedule-table">
 <thead>
 <tr>
 <th>Пары</th>
@@ -95,7 +95,7 @@
 </tbody>
 </table>
 <h2>Неделя: 21-я</h2>
-<table>
+<table class="schedule-table">
 <thead>
 <tr>
 <th>Пары</th>
@@ -182,7 +182,7 @@
 </tbody>
 </table>
 <h2><a id="_22_26"></a>Неделя: 22-я</h2>
-<table>
+<table class="schedule-table">
 <thead>
 <tr>
 <th>Пары</th>
@@ -269,7 +269,7 @@
 </tbody>
 </table>
 <h2>Неделя: 23-я</h2>
-<table>
+<table class="schedule-table">
 <thead>
 <tr>
 <th>Пары</th>
@@ -325,6 +325,45 @@
 </tr>
 </tbody>
 </table>
-<style type="text/css">th,td {width: clamp(20em, 12.5vw, 12.5vw); font-size: clamp(0.9em, calc(0.4rem + 0.6vw), 1.3em);} tr th:first-child,tr td:first-child {width: clamp(10em, 5vw, 5vw);}</style>
+<style type="text/css">th,td {width: clamp(20em, 12.5vw, 12.5vw); font-size: clamp(.9em, calc(.4rem + .6vw), 1.3em);} tr th:first-child,tr td:first-child {width: clamp(10em, 5vw, 5vw);}
+* {font-family: sans-serif;}
+
+.schedule-table {
+  border-collapse: collapse;
+  margin: 4rem 0;
+  border-radius: .8rem .8rem 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 3.2rem rgba(0, 0, 0, .15);
+}
+
+.schedule-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 1rem 1.2rem;
+}
+
+.schedule-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.schedule-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.schedule-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.schedule-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+</style>
 </body>
 </html>
