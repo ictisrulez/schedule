@@ -1,4 +1,4 @@
-# [Расписание занятий группы КТбз3-3](https://ictisrulez.github.io/schedule/)
+# [Расписание занятий группы КТбз3-3](https://sait-ictis.github.io/schedule/)
 
 Сокращённая ссылка на эту страничку: <a href="https://git.io/isched" target="_blank">https://git.io/isched</a>
 
