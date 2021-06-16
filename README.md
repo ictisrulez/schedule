@@ -1,6 +1,6 @@
 # [Расписание занятий группы КТбз3-3](https://sait-ictis.github.io/schedule/)
 
-Сокращённая ссылка на эту страничку: <a href="https://git.io/isched" target="_blank">https://git.io/isched</a>
+Сокращённая ссылка на эту страничку: <a href="https://git.io/isch" target="_blank">https://git.io/isch</a>
 
 Источник: https://ictis.sfedu.ru/rasp/HTML/159.htm
 
